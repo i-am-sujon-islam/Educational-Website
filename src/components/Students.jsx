@@ -29,6 +29,10 @@ const Students = () => {
         style={{
           width: "40px",
           color: "blue",
+          hover: {
+            backgroundColor: "red",
+          },
+          marginRight: "10px",
         }}
       >
         <div
@@ -36,9 +40,6 @@ const Students = () => {
             marginRight: "10px",
             border: "1px gray solid",
             padding: "5px",
-            hover: {
-              backgroundColor: "orange",
-            },
           }}
         >
           {" "}
@@ -65,7 +66,7 @@ const Students = () => {
             <span className="text-gray-600 text-xl px-3">Students</span>
           </div>
         </div>
-        <div className="flex items-center gap-4 mb-5">
+        <div className="flex items-center gap-4 mb-16">
           <Link to="/sudents" className="">
             <img
               className="w-9 hover:scale-105 duration-300"
